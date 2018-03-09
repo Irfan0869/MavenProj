@@ -18,7 +18,7 @@ mvn -Dmaven.test.failure.ignore clean package'''
     }
     stage('Test') {
       steps {
-        sh 'mvn test'
+        sh 'mvn Irfan test'
       }
     }
   }
